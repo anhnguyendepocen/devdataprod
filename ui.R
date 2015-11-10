@@ -8,7 +8,7 @@ shinyUI(fluidPage(
         # Sidebar 
         sidebarLayout(
                 sidebarPanel(
-                        h5("Understand the GDP per capita growth since 1960 in ASEAN economies"),
+                        h5("Understanding the GDP per capita (nominal) growth in current USD values for ASEAN economies"),
                         br(),
                         radioButtons(inputId = "country", 
                                     label = "Select a country:", 
@@ -27,8 +27,9 @@ shinyUI(fluidPage(
                                  "Hover on the lines or click on the GDP Data tab to obtain exact values.",
                                  "Data from 1960-2014 are extracted from", tags$a(href="http://databank.worldbank.org/data/home.aspx", "The World Bank Databank"),
                                  " and forecast data from 2015-2020 are derived from", tags$a(href="http://www.imf.org/external/pubs/ft/weo/2015/02/weodata/index.aspx", "The IMF."),
-                                 "Please check the ", tags$a(href="http://rpubs.com/chankf87/ASEAN_GDP_Growth", "pitch"),
-                                 "and", tags$a(href="https://github.com/chankf87/datadevprod", "source code"))
+                                 "Please check the ", tags$a(href="http://rpubs.com/chankf87/ASEAN_GDP_Growth", "project pitch"),
+                                 "and", tags$a(href="https://github.com/chankf87/devdataprod", "source code"),
+                                 "for further details.")
                 ),
                 
                 # Show the plot 

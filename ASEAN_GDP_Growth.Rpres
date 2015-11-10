@@ -60,4 +60,4 @@ Running the App
 
 <small>The application can be accessed online on [RStudio's Shinyapp Server](https://chankf87.shinyapps.io/ASEAN_GDP_Growth/) 
 
-The source code of application is available from github [here](https://github.com/chankf87/devdatprod).</small>
+The source code of application is available from github [here](https://github.com/chankf87/devdataprod).</small>
